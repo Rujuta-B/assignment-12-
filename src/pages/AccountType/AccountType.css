@@ -1,0 +1,155 @@
+.DarkSignInSection {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-color: #1c1c1c;
+  background-size: cover;
+}
+
+.SignIn-right {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SignInForm-section {
+  padding: 68px 48px;
+  background-color: rgba(255, 255, 255, 0.05);
+  color: white;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.SignInForm-title {
+  font-weight: 600 !important;
+  font-size: 24px !important;
+  color: white !important;
+  margin-bottom: 5px !important;
+}
+.SignInForm-title2 {
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  color: white !important;
+}
+
+.SignInForm-Submit button {
+  width: auto;
+  background-color: #c6c7f8;
+  color: #1c1c1c !important;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+  padding: 8px 16px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  font-style: normal;
+  line-height: 28px;
+}
+.SignInForm-Submit svg {
+  font-size: 15px;
+  margin: 0 8px;
+}
+
+.SignInForm-Submit button:hover {
+  background-color: #c6c7f8;
+}
+
+.SignInForm-signUpButton {
+  color: #95a4fc !important;
+  cursor: pointer;
+}
+
+.HeaderNavBar {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 20px;
+}
+
+.NavBarItem img {
+  margin: 4px;
+}
+.NavBarItem p {
+  margin: 0 8px;
+}
+.SignInBottom p {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  /* 12 Regular */
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+.NavBarItem {
+  display: flex;
+  align-items: center;
+}
+.accountType-desc {
+  color: rgba(255, 255, 255, 0.4);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.accountType-Title {
+  color: #fff;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+.accountType-item svg {
+  font-size: 32px;
+  margin: 15px;
+}
+.accountType-item {
+  font-size: 14px;
+  padding: 24px 16px;
+  border-radius: 8px;
+  display: flex;
+  width: 43%;
+  border: 2px solid transparent;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.05);
+}
+.accountType-item:hover {
+  border: 2px solid #c6c7f8;
+}
+.accountType-section {
+  margin: 28px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.SignInForm-Submit {
+  display: flex;
+  justify-content: center;
+}
+.css-1ecgcg6-MuiContainer-root {
+  height: auto;
+}
+
+@media only screen and (max-width: 990px) {
+  .SignInMain-Section {
+    flex-wrap: wrap;
+    height: 100vh;
+    justify-content: space-evenly;
+  }
+  .SignInMain {
+    width: 100% !important;
+    height: auto !important;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+}
